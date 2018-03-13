@@ -9,7 +9,7 @@ Suggested steps for completing this assignment.
 * Write a `mousePressed()` function to control the movement of the Paddle.
 * Create two stacker variables `stackerX` and `stackerY`. Initialize `stackerX` randomly
 * Write two stacker functions `drawStacker()` and `moveStacker()`. 
-* Write a function that checks for a collision between the stacker and the paddle: `checkForCatch()`. It can use Processing's [`dist()`](http://py.processing.org/reference/dist.html) function
+* Write a function that checks for a collision between the stacker and the paddle: `checkForCatch()`. It can use Processing's [`dist()`](http://py.processing.org/reference/dist.html) function. If the stacker is below a certain y coordinate and within a certain distance of the paddle, we can consider the stacker caught.
 
 Samples of Student Work   
 -----------------------   
