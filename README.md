@@ -11,6 +11,8 @@ Suggested steps for completing this assignment.
 * Write two stacker functions `drawStacker()` and `moveStacker()`. 
 * Write a function that checks for a collision between the stacker and the paddle: `checkForCatch()`. It can use Processing's [`dist()`](http://py.processing.org/reference/dist.html) function. If the stacker is below a certain y coordinate and within a certain distance of the paddle, we can consider the stacker caught.
 * Create a `level` vairable. If the stacker is caught increase `level` by one.
+* Add an `if` statement to `drawPaddle()` so that when we reach level 1, we draw the blue stacker on top of the paddle
+* Add code in `checkForCatch()` to randomize the position of the stacker above the screen so that the next stacker drops down from the top of the screen
 
 Samples of Student Work   
 -----------------------   
