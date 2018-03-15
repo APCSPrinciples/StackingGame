@@ -17,11 +17,17 @@ Suggested steps for completing this assignment.
 * Create a `level` vairable. If the stacker is caught increase `level` by one.
 * Add an `if` statement to `drawPaddle()` so that when we reach level 1, we draw the blue stacker on top of the paddle
 * Add code in `checkForCatch()` to randomize the position of the stacker above the screen so that the next stacker drops down from the top of the screen
-#### End the game is the stacker isn't caught
+#### End the game if the stacker isn't caught
 * Create a `gameOver` variable and initialize it to `True`
 * In `draw()`, add an `if` statement. If the game is over, display an appropriate message and/or artwork. Run the program and make sure the it shows the game over message.
 * Now go back and change the initializtion of `gameOver` to `False`
 * Add an `if` statement at the bottom of `moveStacker()`. If the stacker reaches the bottom of the screen, set `gameOver` to `True`. Play your game to test that it works.
+#### Add more levels
+* Add `if` statements in `drawStacker()` to change the color of the stacker at different levels
+* Add `if` statements in `checkForCatch()` to adjust how the stacker is caught at different levels
+* Add `if` statements in `drawPaddle()` to show the caught stacker at different levels
+#### Display the score
+* Add a`showScore()` function and call it in `draw()`
 
 Samples of Student Work   
 -----------------------   
